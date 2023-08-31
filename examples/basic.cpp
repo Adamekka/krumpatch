@@ -7,8 +7,4 @@ class App : public krumpatch::App {
     virtual ~App() {}
 };
 
-int main() {
-    App *app = new App();
-    app->run();
-    delete app;
-}
+krumpatch::App *krumpatch::create_app() { return new App(); }

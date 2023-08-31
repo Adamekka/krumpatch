@@ -11,6 +11,9 @@ class App {
     auto run() -> void;
 };
 
+/// This function must be defined in the client.
+App *create_app();
+
 } // namespace krumpatch
 
 #endif

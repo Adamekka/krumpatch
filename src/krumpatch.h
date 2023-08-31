@@ -1,5 +1,5 @@
-#ifndef KRUMPATCH_HPP
-#define KRUMPATCH_HPP
+#ifndef KRUMPATCH_H
+#define KRUMPATCH_H
 
 #include "app.hpp"
 #include "entrypoint.hpp"

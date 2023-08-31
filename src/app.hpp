@@ -1,5 +1,5 @@
-#ifndef APPLICATION_HPP
-#define APPLICATION_HPP
+#ifndef APP_HPP
+#define APP_HPP
 
 namespace krumpatch {
 

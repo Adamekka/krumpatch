@@ -8,11 +8,11 @@ class App {
     App();
     virtual ~App();
 
-    auto run() -> void;
+    static auto run() -> void;
 };
 
 /// This function must be defined in the client.
-App *create_app();
+auto create_app() -> App *;
 
 } // namespace krumpatch
 

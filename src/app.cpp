@@ -1,11 +1,10 @@
 #include "app.hpp"
-#include <iostream>
 
 namespace krumpatch {
 
-App::App() {}
+App::App() = default;
 
-App::~App() {}
+App::~App() = default;
 
 auto App::run() -> void {
     while (true)

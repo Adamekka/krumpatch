@@ -3,8 +3,8 @@
 
 class App : public krumpatch::App {
   public:
-    App() {}
-    virtual ~App() {}
+    App() = default;
+    ~App() override = default;
 };
 
-krumpatch::App *krumpatch::create_app() { return new App(); }
+auto krumpatch::create_app() -> krumpatch::App * { return new App(); }

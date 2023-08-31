@@ -2,13 +2,11 @@
 #define ENTRYPOINT_HPP
 
 #include "app.hpp"
-
-extern krumpatch::App *krumpatch::create_app();
+#include <memory>
 
 auto main() -> int {
-    krumpatch::App *app = krumpatch::create_app();
+    std::unique_ptr<krumpatch::App> app(krumpatch::create_app());
     app->run();
-    delete app;
 }
 
 #endif

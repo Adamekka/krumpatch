@@ -24,7 +24,7 @@
         '';
       in
       {
-        devShell = pkgs.mkShell.override { stdenv = pkgs.clangStdenv; } rec {
+        devShell = pkgs.mkShell.override { stdenv = pkgs.llvmPackages_16.stdenv; } rec {
           packages = with pkgs; [
             clang-tools_16
             cmake

@@ -3,5 +3,6 @@
 
 #include "app.hpp"
 #include "entrypoint.hpp"
+#include "log.hpp"
 
 #endif

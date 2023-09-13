@@ -6,7 +6,5 @@ pkgs.mkShell {
   nativeBuildInputs = with pkgs; [
     clang-tools_16
     cmake
-    # glfw
-    # glslang
   ];
 }

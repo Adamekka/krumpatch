@@ -28,7 +28,6 @@
           packages = with pkgs; [
             clang-tools_16
             cmake
-            # glfw
           ];
           name = "C";
         };
